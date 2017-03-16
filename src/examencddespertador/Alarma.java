@@ -28,10 +28,10 @@ public class Alarma {
     public void setMinAlarma(int minAlarma) {
         this.minAlarma = minAlarma;
     }
-    public int ponerHoraAlarma(int hora){
+    public int ponerHoraAlarma(int horas){
         return horaAlarma;
     }
-    public int ponerMinAlarma(int min){
+    public int ponerMinAlarma(int minutos){
         return minAlarma;
     }
 }
