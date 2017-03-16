@@ -10,5 +10,28 @@ package examencddespertador;
  * @author Adry
  */
 public class Alarma {
-    
+    private int horaAlarma;
+    private int minAlarma;
+
+    public int getHoraAlarma() {
+        return horaAlarma;
+    }
+
+    public void setHoraAlarma(int horaAlarma) {
+        this.horaAlarma = horaAlarma;
+    }
+
+    public int getMinAlarma() {
+        return minAlarma;
+    }
+
+    public void setMinAlarma(int minAlarma) {
+        this.minAlarma = minAlarma;
+    }
+    public int ponerHoraAlarma(int hora){
+        return horaAlarma;
+    }
+    public int ponerMinAlarma(int min){
+        return minAlarma;
+    }
 }
