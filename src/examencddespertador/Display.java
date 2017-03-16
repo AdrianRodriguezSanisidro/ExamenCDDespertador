@@ -10,5 +10,13 @@ package examencddespertador;
  * @author Adry
  */
 public class Display {
-    
+    public void mostrarModo(boolean modoHora){
+        
+    }
+    public void mostrarTiempo(int horas,int minutos){
+        
+    }
+    public void mostrarActivacion(boolean alarmaActiva){
+        
+    }
 }
