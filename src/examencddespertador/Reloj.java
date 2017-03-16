@@ -46,6 +46,17 @@ public class Reloj {
     public void setAlarmaActiva(boolean alarmaActiva) {
         this.alarmaActiva = alarmaActiva;
     }
-    
+    public boolean cambiarModo(){
+        return modoHora;
+    }
+    public int aumentarHoras(){
+        return horas;
+    }
+    public int aumentarMinutos(){
+        return minutos;
+    }
+    public boolean activarAlarma(){
+        return alarmaActiva;
     }
 
+}
